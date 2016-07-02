@@ -1,0 +1,10 @@
+name: numbergame
+account: sabin
+server: shinyapps.io
+appId: 111925
+bundleId: 494798
+url: https://sabin.shinyapps.io/numbergame/
+when: 1467428748.85323
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Data.Products.html|Data.Products.Rmd|Slidify.R|old/server.R|old/Slidify.R|old/ui.R
