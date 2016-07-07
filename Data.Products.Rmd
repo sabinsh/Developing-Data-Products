@@ -1,5 +1,5 @@
 ---
-title: 'Data Products: Number Game'
+title: 'Reproducible Pitch Presentation: Number Game'
 author: "Sabin Shrestha"
 date: "July 1, 2016"
 output: slidy_presentation
@@ -12,30 +12,52 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The objective of the game
 ========================================================
-The objective of this game is to guess an integer between 1 and 100 and try to match it with the computer's selection
+The objective of this game is to guess an integer between 1 and 100 and try to match it with the computer's radom number selection.
+
+The working flow includes:
+
+1. Open the url to see the interface
+2. Type in a number and press Guess to begin playing
+3. Each time you type in new number, it will show your guessing result by presenting "High Guess","Low Guess", or "Correct Guess".
 
 Why would use this?
 ========================================================
 
-* For Fun and to learn a technique to guess number in fewer attempts
+For Fun and to learn a technique to guess number in fewer attempts.
+ 
+This game is inspired by the guess game from the funbrain.com website. Ideally, you should be able to guess the correct number with in 7 attempts. 
+
+However, this is basic application has limited features.
 
 The ui.R file
 ========================================================
 
-* Text Input, action button and  interactive verbatimTextOutput have been used to assist user to play the game.
-* You can access the source code by click https://github.com/sabinsh/Developing-Data-Products/
+* Text Input, action button and  interactive Text Output have been used to assist user to play the game.
+
+*  You can access the source code from Github 
+https://github.com/sabinsh/Developing-Data-Products/
 
 The server.R file
 ========================================================
 
-* Makes use of the floor function to generate a random number to be compared.
+* Makes use of the floor function to generate a random number between 1 and 100.
 * Using comparison if...else to guide user guessing the right number.
 
-* You can access the source code by click https://github.com/sabinsh/Developing-Data-Products/
+* Future Enhancement - Currently, there is no R code for counter to count and to notify the user and the application should stop accepting new inputs after 7 attempts.
+
+* You can access the source code from Github
+https://github.com/sabinsh/Developing-Data-Products/
 
 
-Aplication on Shinyapps
+Application on Shinyapps
 ========================================================
-You can test the application GUESSING NUMBER GAME by click https://sabin.shinyapps.io/numbergame/
+You can test the application number Game by clicking
 
+https://sabin.shinyapps.io/numbergame/
+
+Data.Products.Rmd 
+========================================================
+Code to generate document and to publish to RPubs is available in Github
+
+https://github.com/sabinsh/Developing-Data-Products/
 
